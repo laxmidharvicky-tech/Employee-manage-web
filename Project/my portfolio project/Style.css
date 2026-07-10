@@ -2,6 +2,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+
 }
 body{
     font-family:arial, sans-serif;
@@ -81,4 +82,128 @@ footer{
 .cv a{
     text-decoration: none;
     color: white;
+}
+.about h2{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.about p{
+    margin: 20px auto;
+    width: 70%;
+    line-height: 1.7;
+}
+.skills h2{
+    background: white;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.skills ul{
+    list-style:none ;
+}
+.skill li{
+    background: orange;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.exp{
+    color: white;
+    display: flex;
+    justify-content:center;
+    gap: 25px;
+    flex-wrap: wrap;
+   
+}
+.exp img{
+width: 150px;
+height: 150px;
+transition: all 0.4s ease;
+cursor: pointer;
+}
+.exp img:hover{
+    transform: scale(1.10);
+    box-shadow: 0 10px 20px rgba(0,0,0,0,3);
+}
+.pro{
+  background: white;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;  
+}
+.pro h2{
+     margin: 10px;
+    padding: 10px;
+}
+.pro h3{
+     margin: 10px;
+    padding: 10px;
+}
+.pro li{
+     margin: 20px auto;
+    line-height: 1.7;
+}
+.pro p{
+    margin: 20px;
+    line-height: 1.7;
+}
+.pro a{
+    text-decoration: none;
+    color: white;
+}
+.reach img{
+     width: 200px;
+    height: 200px;
+   border-radius: 50%;
+   background-size: contain;
+   border: 2px solid orange;
+}
+.reach h1{
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+.reach p{
+     margin: 20px;
+    line-height: 1.7;
+}
+.social{
+    color: white;
+    display: flex;
+    justify-content:flex-start;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.social img{
+width: 50px;
+height: 50px;
+transition: all 0.4s ease;
+cursor: pointer;
+}
+.social img:hover{
+      transform:scale(1.15);
+    box-shadow: 0 10px 20px rgba(0,0,0,0,3);
+    
+
+}
+.aaa{
+ 
+    display: flex;
+    justify-content:first baseline;
+}
+.aaa img{
+    width: 50px;
+height: 50px;
+}
+.foot{
+    position:relative;
+    top:100px;
 }
