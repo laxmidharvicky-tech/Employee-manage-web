@@ -8,58 +8,60 @@ body {
 
 h1 {
     text-align: center;
+    text-transform: uppercase;
 }
-
-.outerbox {
-    width: 800px;
-    height: 600px;
-    border: 1rem;
-    margin: 0 auto;
-    padding: 40px;
-    box-shadow: 3px 3px 15px black;
-    background: lightcoral;
+.outerbox{
+    width: 600px;
+    height: 400px;
     border-radius: 16px;
+    background: greenyellow;
+  padding: 40px;
+  margin: 0 auto;
+  box-shadow: 3px 3px 10px black;
 }
-
-.innerbox {
-    width: 700px;
-    height: 500px;
-    border: 1rem;
-  
+.innerbox{
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    background: lightcyan;
-
+    grid-template-rows: repeat(3, 1fr);
+    height:300px ;
+    width: 500px;
+    border: 16px;
+    background: wheat;
+    gap: 16px;
 }
-
-.box {
+.box{
+    height:auto;
     width: auto;
-    height: auto;
-    border: 1rem;
+    border: 16px;
     margin: 5px;
     padding: 5px;
-
+  
 }
-
 .box1 {
-    background-image:url(../ChatGPT\ Image\ Jul\ 3\,\ 2026\,\ 05_26_15\ PM.png);
-    background-size: cover;
-    grid-row-start: span 2;
-    grid-column-start: span 2;
+  background-color: #a473f9;
+  grid-column-start: span 2;
 }
-.box2{
-    background: red;
-}
-.box3 {
-  background-color: #b90dad;
 
+.box2 {
+  background-color: #465765;
+}
+
+.box3 {
+  background-color: #ffffff;
+  grid-row-start: span 2;
 }
 
 .box4 {
-  background-color: #b5e618;
+  background-color: #ffffff;
+  height: auto;
+  width: auto;
 }
 
 .box5 {
   background-color: #191f2c;
+  grid-column-start: span 2;
+}
+.box3,
+.box4 {
+  color: black;
+}
