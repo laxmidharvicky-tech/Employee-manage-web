@@ -11,6 +11,7 @@
   background: goldenrod;
   border-radius: 5px;
   height: 80px;
+  box-shadow: 2px 10px 7px 2px gray;
 }
 .navbar{
 display: flex;
