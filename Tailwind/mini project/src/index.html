@@ -9,13 +9,15 @@
 </head>
 
 <body class="bg-gray-100  font-sans">
+
     <nav class="shadow sticky top-0 z-50 bg-white">
-        <div class="container mx-auto py-4 flex justify-around items-center">
+
+        <div class="container mx-auto flex flex col md:flex-row items-center justify-around px-6 py-4">
             <!----shopx---->
             <h1 class="text-blue-700 font-extrabold text-2xl">Shopx</h1>
 
             <!----navlink--->
-            <div class="flex gap-6">
+            <div class="flex flex-col md: flex-row gap-6">
                 <a href="#" class="hover:text-blue-700 transition-all">Home</a>
                 <a href="#" class="hover:text-blue-700 transition-all">Products</a>
                 <a href="#" class="hover:text-blue-700 transition-all">Features</a>
@@ -23,16 +25,16 @@
             </div>
 
             <!---login-->
-            <button class="bg-blue-600 hover:bg-blue-800 transition hover:scale-105
+            <button class=" mt-4 md: bg-blue-600 hover:bg-blue-800 transition hover:scale-105
             rounded-md py-2 px-4 text-white ring-2 ring-blue-300">Login</button>
         </div>
 
     </nav>
     <!--hero section-->
-    <section
-        class="border-2 border-red-800 min-h-screen  bg-indigo-600 text-white flex justify-center items-center py-6">
-        <!--parent-->
-        <div class="grid grid-cols-2 gap-10 items-center px-6 py-4 m-5 ">
+    <section class=" min-h-2/5 w-auto bg-indigo-600
+         text-white flex justify-center items-center py-6">
+
+        <div class="grid grid-cols-2 justify-center items-center">
             <!--is1 sec-->
             <div class="m-15">
                 <p class="uppercase colo text-gray-400 tracking-widest">New Collection</p>
@@ -52,6 +54,35 @@
             <div class="w-75 h-90 flex items-center justify-center ">
                 <img class="rounded-2xl object-cover h-full rotate-3 shadow-2xl" src="./ShopX - Hero.jpg">
 
+            </div>
+        </div>
+    </section>
+    <section class="bg-gray-100 py-16">
+        <div>
+            <h2 class="text-3xl text-center m-10 p-5 font-bold">Why Chose Us ?</h2>
+        </div>
+        <!--cards-->
+
+        <div class="grid grid-cols-3 p-4 m-10 gap-6 ">
+            <!---card-->
+            <div class=" w-auto h-auto  bg-white rounded-3xl p-10 shadow-md 
+            hover:shadow-2xl hover:-translate-y-2 transision-all duration-300">
+                <div>⚡</div>
+                <h2>Fast Delivery</h2>
+                <p>responsive layout using flex and grid.</p>
+            </div>
+
+            <div class=" w-auto h-auto bg-white rounded-3xl p-10 shadow-md 
+            hover:shadow-2xl hover:-translate-y-2 transision-all duration-300">
+                <div>🎯</div>
+                <h2>Premium Quality</h2>
+                <p>We give best quality.</p>
+            </div>
+            <div class=" w-auto h-auto bg-white rounded-3xl p-10 shadow-md 
+            hover:shadow-2xl hover:-translate-y-2 transision-all duration-300">
+                <div>💙</div>
+                <h2>Mordern Design</h2>
+                <p>we work on customer satisfaction</p>
             </div>
         </div>
     </section>
