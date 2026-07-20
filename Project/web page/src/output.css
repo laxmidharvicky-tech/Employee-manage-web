@@ -218,6 +218,9 @@
   .right-3 {
     right: calc(var(--spacing) * 3);
   }
+  .m-3 {
+    margin: calc(var(--spacing) * 3);
+  }
   .m-5 {
     margin: calc(var(--spacing) * 5);
   }
@@ -306,6 +309,9 @@
   .pr-14 {
     padding-right: calc(var(--spacing) * 14);
   }
+  .pr-20 {
+    padding-right: calc(var(--spacing) * 20);
+  }
   .text-center {
     text-align: center;
   }
@@ -366,6 +372,9 @@
     }
   }
   @media (width >= 48rem) {
+    .md\:m-5 {
+      margin: calc(var(--spacing) * 5);
+    }
     .md\:w-md {
       width: var(--container-md);
     }
