@@ -251,6 +251,9 @@
   .w-20 {
     width: calc(var(--spacing) * 20);
   }
+  .w-32 {
+    width: calc(var(--spacing) * 32);
+  }
   .w-md {
     width: var(--container-md);
   }
@@ -302,6 +305,9 @@
   }
   .pr-14 {
     padding-right: calc(var(--spacing) * 14);
+  }
+  .text-center {
+    text-align: center;
   }
   .font-serif {
     font-family: var(--font-serif);
@@ -357,6 +363,15 @@
     }
     .hover\:text-gray-800:hover {
       color: var(--color-gray-800);
+    }
+  }
+  @media (width >= 48rem) {
+    .md\:w-md {
+      width: var(--container-md);
+    }
+    .md\:text-xl {
+      font-size: var(--text-xl);
+      line-height: var(--tw-leading, var(--text-xl--line-height));
     }
   }
 }
