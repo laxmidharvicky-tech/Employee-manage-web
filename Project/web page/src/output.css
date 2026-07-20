@@ -215,6 +215,12 @@
   .-right-80 {
     right: calc(var(--spacing) * -80);
   }
+  .-right-90 {
+    right: calc(var(--spacing) * -90);
+  }
+  .-right-96 {
+    right: calc(var(--spacing) * -96);
+  }
   .right-3 {
     right: calc(var(--spacing) * 3);
   }
